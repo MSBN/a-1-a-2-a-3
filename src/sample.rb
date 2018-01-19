@@ -1,4 +1,3 @@
-# coding: utf-8
 class Sample
   def initialize
     @a = 1
@@ -20,4 +19,4 @@ class Sample
 end
 
 sample = Sample.new
-puts sample.normal_way
+puts sample.normal_way # => true
