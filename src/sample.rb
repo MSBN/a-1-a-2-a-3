@@ -18,3 +18,6 @@ class Sample
     return @a - 1
   end
 end
+
+sample = Sample.new
+puts sample.normal_way
