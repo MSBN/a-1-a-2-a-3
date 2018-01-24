@@ -1,8 +1,9 @@
 class MethodMissing
-  def initialize
+
+  def   initialize  
     @@a = 1
   end
-  
+
   def abnormal_way
     if (A == 1 && A == 2 && A == 3)
       true
@@ -11,7 +12,7 @@ class MethodMissing
     end
   end
 
-  def self.const_missing(name)    
+  def self.const_missing(name)
     if name.to_s == 'A'
       @@a += 1
       return @@a - 1

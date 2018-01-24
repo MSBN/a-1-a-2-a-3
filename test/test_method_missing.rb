@@ -7,4 +7,3 @@ class TestMethodMissing < MiniTest::Unit::TestCase
     assert MethodMissing.new.abnormal_way
   end
 end
-

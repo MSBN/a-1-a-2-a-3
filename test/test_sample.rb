@@ -10,4 +10,3 @@ class TestSample < MiniTest::Unit::TestCase
     assert @ne.normal_way, true
   end
 end
-
